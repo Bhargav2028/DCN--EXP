@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+    background-color:#56d8e4 ;
+   
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: white;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: red;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Dog Information Form</h1> </center>  
+  <hr>  
+  <label> Dog Name </label>   
+<input type="text" name="Dog Name" placeholder= "Dog Name" size="15" required />   
+<label> Breed: </label>   
+<input type="text" name="Breed" placeholder="Breed" size="15" required />   
+<label> Colour: </label>    
+<input type="text" name="Colour" placeholder="Colour" size="15"required />  
+<label> Age: </label>   
+<input type="text" name="Age" placeholder="Age" size="15" required /> 
+<label> Weight: </label>   
+<input type="text" name="Weight" placeholder="Weight" size="15" required />     
+ 
+ 
+ 
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female     
+</div>  
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  

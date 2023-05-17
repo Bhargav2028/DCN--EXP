@@ -1,0 +1,86 @@
+.petsimg{
+    float:right;
+    width:auto;
+    height:400px;
+    clear:both;
+  }
+  h2{
+    font-size:35px;
+    text-align:center;
+  }
+  h1{
+    font-size: 50px;
+    text-align:center;
+  }
+  ul li{
+    font-size:27px;
+    font-family:cursive;
+  }
+  h3{
+    font-size:26px;
+  }
+  p{
+    font-size:25px;
+    font-family:cursive;
+  }
+  .nav_bar{
+    width:100%;
+    background-color:#FF69B4;
+    margin:auto;
+    font-family:Arial, Helvetica;
+    display:inline-block;
+    height:59px;
+  }
+  a{
+    color:black;
+    font-size:25px;
+    text-decoration: none;
+  }
+  .nav_bar > a{
+    float:left;
+    font-size:26px;
+    color:black;
+    text-align:center;
+    padding:14px 18px;
+    text-decoration: none;
+    width:14%;
+  }
+  .dropdown{
+    float:left;
+    overflow:hidden;
+  }
+  .dropdown .dropbtn{
+    font-size: 26px;  
+    width:100%;
+      border: none;
+      outline: solid;
+      color: black;
+      padding: 14px 18px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+  .nav_bar a:hover, .dropdown:hover .dropbtn {
+      background-color:	#FF1493;
+  }
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #FDF9;
+      min-width: 178px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      width:11%;
+  }
+  
+  .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 14px 18px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
